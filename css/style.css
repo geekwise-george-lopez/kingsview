@@ -12,7 +12,7 @@ body{
     margin:0 auto;
     padding:12px;
     font-size:2em;
-    background-color:aqua;
+    background-color:lightgray;
    
 }
 
@@ -70,6 +70,30 @@ main{
     text-align:center;
 }
 
-#two{
-   
+.boxes{
+    margin:0;
+    width:calc(90%/2);
+    background-color:lightgray;
+        
 }
+
+#photo{
+    height:8em;
+    margin:0 auto;
+    padding:0;
+    float:left;
+
+}
+
+#text{
+    margin:3%;
+    width:calc(78%/2);
+    height:5.5em;
+    float:left;
+
+}
+p{
+    font-size:10px;
+
+}
+
