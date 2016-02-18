@@ -70,15 +70,16 @@ main{
     text-align:center;
 }
 
-.boxes{
-    margin:0;
-    width:calc(90%/2);
+#boxes{
+    margin:0 auto;
+    width:100%;
     background-color:lightgray;
         
 }
 
 #photo{
     height:8em;
+    width:50%;
     margin:0 auto;
     padding:0;
     float:left;
@@ -86,14 +87,15 @@ main{
 }
 
 #text{
-    margin:3%;
-    width:calc(78%/2);
-    height:5.5em;
+    margin:0;
+    width:50%;
+    height:5.em;
     float:left;
 
 }
 p{
-    font-size:10px;
+    padding:0;
+    font-size:12px;
 
 }
 
